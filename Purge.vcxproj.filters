@@ -1,0 +1,2417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{ac5a8120-68a4-4ab4-8cf1-48d71d0589be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\xml">
+      <UniqueIdentifier>{7a855821-0934-4eb4-a51a-0da5e343a22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\wic">
+      <UniqueIdentifier>{e86061f9-a5c8-4bdc-8a49-a70ba437adab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\memory">
+      <UniqueIdentifier>{21428142-7b35-41cd-8f4e-5b63185decd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\hooking">
+      <UniqueIdentifier>{9bc7275c-8e77-454c-b989-4f816b836958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rage">
+      <UniqueIdentifier>{ae694741-dd0f-47e1-90ca-28ff81922144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rage\types">
+      <UniqueIdentifier>{0e010451-67ed-445d-b46d-5e93a94b0564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rage\invoker">
+      <UniqueIdentifier>{64e031b9-be8d-4333-b575-6144722e6584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{6638b7d5-c687-4d90-8de2-bdb570a55d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base">
+      <UniqueIdentifier>{3aa006e7-2c17-418e-80c3-63097f51906b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\hooks">
+      <UniqueIdentifier>{5787bce4-afa6-49b2-94c9-400c3e5251e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\options">
+      <UniqueIdentifier>{e1da2256-d562-453e-8bba-56fdc40c1322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\util">
+      <UniqueIdentifier>{fefbaded-0327-4157-ba1e-4b9613c8a3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus">
+      <UniqueIdentifier>{fa7a243c-1a94-499b-8c57-2c5a61fe8d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main">
+      <UniqueIdentifier>{5b72f278-73dc-4a3f-bb9d-555635b0bc98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\world">
+      <UniqueIdentifier>{382ecbad-37af-4feb-a1bc-229f68532999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\world\fx">
+      <UniqueIdentifier>{e5226b46-9210-4318-b6b1-04f16594a0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\world\ocean">
+      <UniqueIdentifier>{c6fab51c-2b95-46b4-99d0-a68c21a05f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\world\time">
+      <UniqueIdentifier>{ce344987-b675-4c9c-95fa-7e90b7eac1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\world\weather">
+      <UniqueIdentifier>{e521c63f-0a90-405f-a134-3436874a43b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\weapon">
+      <UniqueIdentifier>{aea021ed-575f-4a80-8ed1-4140c6d2415b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\weapon\explosions">
+      <UniqueIdentifier>{9d0ad6ca-bce0-4879-b042-15a3ea7de9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\weapon\give">
+      <UniqueIdentifier>{9d640389-4616-4598-93d2-092dcefee7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\weapon\modifiers">
+      <UniqueIdentifier>{6dcc0a5b-0447-4aea-b288-8efafad44775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\weapon\purchase">
+      <UniqueIdentifier>{1e9a4014-ec60-4eee-bd04-c3dc07667cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\weapon\modifiers\ammo">
+      <UniqueIdentifier>{691a906d-b132-4e36-b70b-1917ff3422c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\vehicle">
+      <UniqueIdentifier>{3a4c91e1-d340-40ef-9c33-e28b71bb2c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\vehicle\customs">
+      <UniqueIdentifier>{72fe2368-7864-4fbd-92b0-334f414d40f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\vehicle\modifiers">
+      <UniqueIdentifier>{6802ee48-68eb-47e8-b217-a56e7da75242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\vehicle\movement">
+      <UniqueIdentifier>{343ac07a-0a8c-49d8-842e-1e1b6fbfdc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\vehicle\seats">
+      <UniqueIdentifier>{a1292f05-9150-4cf5-9869-88988e908c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\vehicle\customs\wheels">
+      <UniqueIdentifier>{01f716df-ab5a-42f6-8859-76f0d6f59358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\vehicle\customs\respray">
+      <UniqueIdentifier>{b31e03b0-3b37-42a0-bd78-e3445c11be2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\vehicle\customs\lights">
+      <UniqueIdentifier>{42416ac5-aef7-4fc9-913a-2cc7221d13c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\vehicle\modifiers\handling">
+      <UniqueIdentifier>{71327237-871b-4cd1-87ae-a6de5c86761a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\teleport">
+      <UniqueIdentifier>{e28a997c-d1cf-4dfe-b107-de9076556441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\teleport\stores">
+      <UniqueIdentifier>{e3c2e1e9-eed2-47b6-838e-f32602e705ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\spawner">
+      <UniqueIdentifier>{378d37e5-c3a4-4635-938a-d9fe8b78ffca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\spawner\object">
+      <UniqueIdentifier>{5c8e962c-66df-4cf6-bca0-17e32b848447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\spawner\ped">
+      <UniqueIdentifier>{8143c9ac-1ac1-4778-9f34-2b198bd25ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\spawner\vehicle">
+      <UniqueIdentifier>{0d643d4f-e230-4696-8e48-44e7920d73ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\spawner\vehicle\garage">
+      <UniqueIdentifier>{3dcb8f30-d582-4d86-9ef3-8437feac96d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\spawner\vehicle\edit">
+      <UniqueIdentifier>{e65e606d-acd5-4332-b777-e29b8881f603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\spawner\ped\edit">
+      <UniqueIdentifier>{a7f5b5f1-c67a-4d8f-ac31-123251cecc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\spawner\object\edit">
+      <UniqueIdentifier>{ef64f64f-5e40-4216-960a-2ffddb2863a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\settings">
+      <UniqueIdentifier>{537588c7-3759-4f91-9683-3a662a9ba26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\settings\translation">
+      <UniqueIdentifier>{5e3ae67b-94fe-45ca-a1d7-d8c2de9feae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\settings\themes">
+      <UniqueIdentifier>{4c2e8962-dd48-4200-83cc-9a53c70fe455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\settings\pos">
+      <UniqueIdentifier>{4cafe5a1-f979-4577-8f72-0e62890ea150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\settings\hk">
+      <UniqueIdentifier>{a4831a22-b65d-4e8f-bdd4-f3379c39b1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\settings\color">
+      <UniqueIdentifier>{6b637e74-991d-4a2f-a16e-734f897e0b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\protection">
+      <UniqueIdentifier>{3fb80d2e-98c7-42eb-a408-1c756515a7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\protection\entity">
+      <UniqueIdentifier>{e0962149-a662-4186-b6b0-db90431098b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\protection\limits">
+      <UniqueIdentifier>{1d5765d9-e984-4202-a221-37ed963a8f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\protection\reactions">
+      <UniqueIdentifier>{f6735f43-2f05-44aa-a06b-43f12029baf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\protection\limits\entity">
+      <UniqueIdentifier>{5f5e0ba2-3b6e-49f0-a549-952ec8096d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\player">
+      <UniqueIdentifier>{4cdabb9c-65eb-4a31-a356-71b716e5092b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\player\animation">
+      <UniqueIdentifier>{016d69fb-80b5-412c-b5db-2767a1d3ca68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\player\ptfx">
+      <UniqueIdentifier>{2244936f-7222-4e28-ad77-71df1412c208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network">
+      <UniqueIdentifier>{93ff5d5b-3b3a-4560-ae37-2beca8bf409d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\account">
+      <UniqueIdentifier>{352d09be-bf27-4415-974f-674c3960dccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\account\wins">
+      <UniqueIdentifier>{c11df3df-3fa6-4840-83e6-6dddb89f3e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\account\outfits">
+      <UniqueIdentifier>{85482832-5157-4584-8bb5-1c22b6ec4906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\chat">
+      <UniqueIdentifier>{dd225027-c511-4bb6-b9a7-fab516b9abac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\finder">
+      <UniqueIdentifier>{02e305d0-2df5-475b-a289-b56a63f36374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\friends">
+      <UniqueIdentifier>{ffeef785-0038-4218-ab47-760178037510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\players">
+      <UniqueIdentifier>{b7e46e8b-950b-4b79-8882-9f9198ea99ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\players\abusive">
+      <UniqueIdentifier>{cbb6e0ea-59f3-497c-a006-c05c389bfd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\players\friendly">
+      <UniqueIdentifier>{223f587c-1cca-419b-918e-ca257c862719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\players\teleport">
+      <UniqueIdentifier>{b277aa20-a852-43b8-8454-6319ceb7be66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\players\text">
+      <UniqueIdentifier>{b03fa7bf-2a26-4e89-9e59-3b7473357191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\players\trolling">
+      <UniqueIdentifier>{74e93210-e31b-44bf-a278-35d6eac91725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\recent">
+      <UniqueIdentifier>{2e063171-d23b-4592-8c75-52a70e83ee61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\search">
+      <UniqueIdentifier>{85da2a44-90c6-4f19-b7d5-24ed4d6ab94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\session">
+      <UniqueIdentifier>{c92d9033-0c66-4292-acdd-c82b2f0e1826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\session\overseer">
+      <UniqueIdentifier>{bd9caaeb-f2d2-49e2-994a-50cbc5d8f92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\spoofing">
+      <UniqueIdentifier>{d3cdd63f-8f54-4092-b7bf-903f925afd92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\spoofing\crew">
+      <UniqueIdentifier>{a4a8bb1d-5662-40f0-8b6f-ff58fe425970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\spoofing\profiles">
+      <UniqueIdentifier>{c9a2e807-772b-4cba-b0d1-c5144c6cddd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\toolkit">
+      <UniqueIdentifier>{b6bd8e02-ddb8-45bb-89be-14cd2df22aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\network\toolkit\blocking">
+      <UniqueIdentifier>{8a353974-54c2-4304-8b2e-0c2509d7e598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\misc">
+      <UniqueIdentifier>{b7da608c-4715-4fdf-a511-1002072bc609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\misc\swaps">
+      <UniqueIdentifier>{da900697-9f26-423e-8794-686b563e84b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\misc\panels">
+      <UniqueIdentifier>{5439a7f2-fd3e-4065-a56c-454b0f142888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\misc\camera">
+      <UniqueIdentifier>{0c2f7dab-5e35-4e6e-a762-59314cfe2760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\helper">
+      <UniqueIdentifier>{4606967e-35d8-438f-ac84-4ebbcc7ed3df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\helper\color">
+      <UniqueIdentifier>{5475af79-afa1-431b-bbf4-a1282b0e1c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\helper\esp">
+      <UniqueIdentifier>{92a65f83-d088-469f-8b89-f5f68d55d986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\base\submenus\main\helper\rainbow">
+      <UniqueIdentifier>{b97e0431-cd8f-409e-a13f-5e5789e5584d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{5f7ad47c-e801-4817-bd36-7d1d53937b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{226fd14f-e59a-43c1-85f1-6e2fa100e8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\md5">
+      <UniqueIdentifier>{2682869e-246e-4e20-aca8-231d45caf4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\json">
+      <UniqueIdentifier>{fed32b1f-d827-493e-9ae1-c936dbb0c25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\http">
+      <UniqueIdentifier>{34fc1a12-20fd-41d2-8313-dec36a742a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\base64">
+      <UniqueIdentifier>{58d19333-283c-466b-a3ef-6803ec76287d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\api">
+      <UniqueIdentifier>{729c7cb8-b8c9-446c-9e06-95d582e82207}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util\util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\va.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\wmi.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\config.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\dirs.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\fiber.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\fiber_pool.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\localization.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\log.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\threads.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\xml\pugixml.cpp">
+      <Filter>util\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="util\wic\wic_texture_loader.cpp">
+      <Filter>util\wic</Filter>
+    </ClCompile>
+    <ClCompile Include="util\memory\memory.cpp">
+      <Filter>util\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="util\memory\pattern.cpp">
+      <Filter>util\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="util\hooking\hooking.cpp">
+      <Filter>util\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\engine.cpp">
+      <Filter>rage</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\invoker\invoker.cpp">
+      <Filter>rage\invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\base_types.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\bit_buffer.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\generic_types.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\invoker_types.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\network_types.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\init.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\apply_player_physical_index.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\apply_weather_meta.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\crash.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\does_cam_exist.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\format_engine_string.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\game_chat.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\get_font_id.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\get_gxt_label.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\get_peer_address.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\get_proc_address.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\has_ros_privilege.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\matchmaking.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\pack_clone_create.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\pack_clone_sync.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\process_game_event.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\process_relay_usage.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\profanity.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\read_blacklist_message.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\read_from_sync_tree_buffer.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\read_kick_player_message.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\read_new_script_host_message.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\receive_broadcast.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\receive_clone_create.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\receive_clone_remove.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\receive_clone_sync.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\receive_network_event.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\receive_presence_event.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\receive_session_info.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\render_script_texture.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\script_event.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\shoot_bullet.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\update_player_script_status.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\write_gs_item.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\write_ped_health_data_node.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\write_player_gamer_data_node.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\write_player_game_state_data_node.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\write_rid.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\options\break.cpp">
+      <Filter>menu\base\options</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\options\button.cpp">
+      <Filter>menu\base\options</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\options\color_option.cpp">
+      <Filter>menu\base\options</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\options\number.cpp">
+      <Filter>menu\base\options</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\options\option.cpp">
+      <Filter>menu\base\options</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\options\radio.cpp">
+      <Filter>menu\base\options</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\options\submenu_option.cpp">
+      <Filter>menu\base\options</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\options\toggle.cpp">
+      <Filter>menu\base\options</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\base.cpp">
+      <Filter>menu\base</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\renderer.cpp">
+      <Filter>menu\base</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenu.cpp">
+      <Filter>menu\base</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenu_handler.cpp">
+      <Filter>menu\base</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\camera.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\control.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\fonts.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\helpers.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\hotkeys.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\input.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\instructionals.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\menu_input.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\notify.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\on_screen_ped.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\panels.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\player_manager.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\rainbow.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\raycast.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\stacked_display.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\stats.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\textures.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\util\timers.cpp">
+      <Filter>menu\base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main.cpp">
+      <Filter>menu\base\submenus</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protections.cpp">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings.cpp">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner.cpp">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\teleport.cpp">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle.cpp">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world.cpp">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc.cpp">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network.cpp">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player.cpp">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\ocean.cpp">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\trains.cpp">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\world_time.cpp">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\world_waypoint.cpp">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\world_weather.cpp">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\bullet_tracers.cpp">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\clear_area.cpp">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\game_fx.cpp">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\local_entities.cpp">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_color.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_cross_multiplier.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_liquid.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_load.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_puddles.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_sky.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_traffic.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_ui_color.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_vehicle.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\fx\fx_vehicle_neons.cpp">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\ocean\ocean_quads.cpp">
+      <Filter>menu\base\submenus\main\world\ocean</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\ocean\ocean_quads_edit.cpp">
+      <Filter>menu\base\submenus\main\world\ocean</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\ocean\ocean_tuning.cpp">
+      <Filter>menu\base\submenus\main\world\ocean</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\time\time_preset.cpp">
+      <Filter>menu\base\submenus\main\world\time</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\weather\fx\weather_fx.cpp">
+      <Filter>menu\base\submenus\main\world\weather</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\world\weather\weather_select.cpp">
+      <Filter>menu\base\submenus\main\world\weather</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\particle_gun.cpp">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\triggerbot.cpp">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\weapon_disables.cpp">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\weapon_modifiers.cpp">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\weapon_mods.cpp">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\aimbot.cpp">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\entity_gun.cpp">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\give_weapons_ammo.cpp">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\gravity_gun.cpp">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\explosions\explosion_editor.cpp">
+      <Filter>menu\base\submenus\main\weapon\explosions</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\explosions\explosion_gun.cpp">
+      <Filter>menu\base\submenus\main\weapon\explosions</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\give\give_attachment.cpp">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\give\give_attachment_selected.cpp">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\give\give_tint.cpp">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\give\give_tint_selected.cpp">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\give\give_weapon.cpp">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\give\give_weapons.cpp">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\modifiers\ammo\ammo_modifier.cpp">
+      <Filter>menu\base\submenus\main\weapon\modifiers\ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\modifiers\ammo\ammo_modifier_edit.cpp">
+      <Filter>menu\base\submenus\main\weapon\modifiers\ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\modifiers\ammo\ammo_modifier_load.cpp">
+      <Filter>menu\base\submenus\main\weapon\modifiers\ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\modifiers\ammo\ammo_modifier_swap.cpp">
+      <Filter>menu\base\submenus\main\weapon\modifiers\ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\modifiers\weapon_multipliers.cpp">
+      <Filter>menu\base\submenus\main\weapon\modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\modifiers\weapon_matrix.cpp">
+      <Filter>menu\base\submenus\main\weapon\modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\purchase\purchase_attachment.cpp">
+      <Filter>menu\base\submenus\main\weapon\purchase</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\purchase\purchase_weapon.cpp">
+      <Filter>menu\base\submenus\main\weapon\purchase</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\weapon\purchase\purchase_weapons.cpp">
+      <Filter>menu\base\submenus\main\weapon\purchase</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_customs.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_doors.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_gravity.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_health.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_modifiers.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_movement.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_multipliers.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_particles.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_ramps.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_randomization.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_seats.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_speedometer.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_tyre_tracks.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_weapons.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_autopilot.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_boost.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\vehicle_collision.cpp">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_interior.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_lights.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_lsc.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_respray.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_wheels.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_bumpers.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_fender.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_horn.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_color.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_tires.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_tires_edit.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_type.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_type_edit.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\respray\vehicle_customs_respray_edit.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs\respray</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\respray\vehicle_customs_respray_type.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs\respray</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\lights\neon\vehicle_customs_neon_color.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\customs\lights\vehicle_customs_neon.cpp">
+      <Filter>menu\base\submenus\main\vehicle\customs\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\modifiers\vehicle_modifiers_handling.cpp">
+      <Filter>menu\base\submenus\main\vehicle\modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_attr.cpp">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_bike.cpp">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_boat.cpp">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_flying.cpp">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_load.cpp">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_main.cpp">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\movement\vehicle_movement_parachute.cpp">
+      <Filter>menu\base\submenus\main\vehicle\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\movement\vehicle_movement_acrobatics.cpp">
+      <Filter>menu\base\submenus\main\vehicle\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\vehicle\seats\vehicle_seats_edit.cpp">
+      <Filter>menu\base\submenus\main\vehicle\seats</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\teleport\teleport_ipl.cpp">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\teleport\teleport_save_load.cpp">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\teleport\teleport_selected.cpp">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\teleport\teleport_settings.cpp">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\teleport\teleport_stores.cpp">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\teleport\teleport_directional.cpp">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\teleport\stores\teleport_stores_selected.cpp">
+      <Filter>menu\base\submenus\main\teleport\stores</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_save.cpp">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_selected.cpp">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_settings.cpp">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_garage.cpp">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_manage.cpp">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_modded.cpp">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\vehicle\garage\spawner_vehicle_garage_selected.cpp">
+      <Filter>menu\base\submenus\main\spawner\vehicle\garage</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\vehicle\edit\spawner_vehicle_manage_edit.cpp">
+      <Filter>menu\base\submenus\main\spawner\vehicle\edit</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\ped\spawner_ped_settings.cpp">
+      <Filter>menu\base\submenus\main\spawner\ped</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\ped\spawner_ped_manage.cpp">
+      <Filter>menu\base\submenus\main\spawner\ped</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\ped\edit\spawner_ped_manage_edit.cpp">
+      <Filter>menu\base\submenus\main\spawner\ped\edit</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\object\spawner_object_select.cpp">
+      <Filter>menu\base\submenus\main\spawner\object</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\object\spawner_object_settings.cpp">
+      <Filter>menu\base\submenus\main\spawner\object</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\object\spawner_object_building.cpp">
+      <Filter>menu\base\submenus\main\spawner\object</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\object\spawner_object_manage.cpp">
+      <Filter>menu\base\submenus\main\spawner\object</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\spawner\object\edit\spawner_object_manage_edit.cpp">
+      <Filter>menu\base\submenus\main\spawner\object\edit</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\settings_fonts.cpp">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\settings_hotkey.cpp">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\settings_texture.cpp">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\settings_textures.cpp">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\themes.cpp">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\translation.cpp">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\hide_info.cpp">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\position_scale.cpp">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\settings_color.cpp">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\translation\translation_selected.cpp">
+      <Filter>menu\base\submenus\main\settings\translation</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\themes\themes_selected.cpp">
+      <Filter>menu\base\submenus\main\settings\themes</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\pos\position_scale_selected.cpp">
+      <Filter>menu\base\submenus\main\settings\pos</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\hk\hotkey_selected.cpp">
+      <Filter>menu\base\submenus\main\settings\hk</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\settings\color\color_sync.cpp">
+      <Filter>menu\base\submenus\main\settings\color</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\protection_limits.cpp">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\protection_net_events.cpp">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\protection_presence_events.cpp">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\protection_reactions.cpp">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\protection_anti_detection.cpp">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\protection_entity_events.cpp">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\protection_events.cpp">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\protection_join_blocking.cpp">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\reactions\protection_reactions_selected.cpp">
+      <Filter>menu\base\submenus\main\protection\reactions</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\limits\entity\protection_spawn_rate_limit_add.cpp">
+      <Filter>menu\base\submenus\main\protection\limits\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\limits\entity\protection_spawn_rate_limit_edit.cpp">
+      <Filter>menu\base\submenus\main\protection\limits\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\limits\protection_spawn_rate_limit.cpp">
+      <Filter>menu\base\submenus\main\protection\limits</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\limits\protection_message_limit.cpp">
+      <Filter>menu\base\submenus\main\protection\limits</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\entity\protection_entity_blocking.cpp">
+      <Filter>menu\base\submenus\main\protection\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\entity\protection_entity_ghosting.cpp">
+      <Filter>menu\base\submenus\main\protection\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\protection\entity\protection_entity_ghosting_edit.cpp">
+      <Filter>menu\base\submenus\main\protection\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\animation\animations.cpp">
+      <Filter>menu\base\submenus\main\player\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\animation\clipsets.cpp">
+      <Filter>menu\base\submenus\main\player\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\animation\scenario.cpp">
+      <Filter>menu\base\submenus\main\player\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\ptfx\hand_trails.cpp">
+      <Filter>menu\base\submenus\main\player\ptfx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\ptfx\particle_manager.cpp">
+      <Filter>menu\base\submenus\main\player\ptfx</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\model.cpp">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\movement.cpp">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\particles.cpp">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\wardrobe.cpp">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\wardrobe_save_load.cpp">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\animation.cpp">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\player\appearance.cpp">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\account\network_account_level.cpp">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\account\network_account_outfits.cpp">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\account\network_account_times.cpp">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\account\network_account_unlocks.cpp">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\account\network_account_wins_losses.cpp">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\account\network_account_kd.cpp">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\account\wins\network_account_wins_losses_edit.cpp">
+      <Filter>menu\base\submenus\main\network\account\wins</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\account\outfits\network_account_outfits_edit.cpp">
+      <Filter>menu\base\submenus\main\network\account\outfits</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\account\outfits\network_account_outfits_edit_name.cpp">
+      <Filter>menu\base\submenus\main\network\account\outfits</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\chat\network_global_chat_ozark.cpp">
+      <Filter>menu\base\submenus\main\network\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\chat\network_global_chat_presets.cpp">
+      <Filter>menu\base\submenus\main\network\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\chat\network_global_chat_targets.cpp">
+      <Filter>menu\base\submenus\main\network\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\finder\network_session_finder_edit.cpp">
+      <Filter>menu\base\submenus\main\network\finder</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\friends\network_friends_selected.cpp">
+      <Filter>menu\base\submenus\main\network\friends</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_trolling.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_vehicle.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_abusive.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_commands.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_friendly.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_removals.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_selected.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_spawn_blocking.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_teleport.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\network_players_text.cpp">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\text\network_players_text_presets.cpp">
+      <Filter>menu\base\submenus\main\network\players\text</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\text\network_players_text_save.cpp">
+      <Filter>menu\base\submenus\main\network\players\text</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\trolling\network_players_trolling_attachments.cpp">
+      <Filter>menu\base\submenus\main\network\players\trolling</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\trolling\attachments\network_players_trolling_attachments_presets.cpp">
+      <Filter>menu\base\submenus\main\network\players\trolling</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\trolling\network_players_trolling_sounds.cpp">
+      <Filter>menu\base\submenus\main\network\players\trolling</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\teleport\network_players_teleport_apartments.cpp">
+      <Filter>menu\base\submenus\main\network\players\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\friendly\network_players_friendly_drops.cpp">
+      <Filter>menu\base\submenus\main\network\players\friendly</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\abusive\network_players_abusive_attackers.cpp">
+      <Filter>menu\base\submenus\main\network\players\abusive</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\players\abusive\network_players_abusive_explosions.cpp">
+      <Filter>menu\base\submenus\main\network\players\abusive</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\recent\network_recent_players_permanent.cpp">
+      <Filter>menu\base\submenus\main\network\recent</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\recent\network_recent_players_selected.cpp">
+      <Filter>menu\base\submenus\main\network\recent</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\search\network_player_search_selected.cpp">
+      <Filter>menu\base\submenus\main\network\search</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\session\network_session_overseer.cpp">
+      <Filter>menu\base\submenus\main\network\session</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\session\network_session_excludes.cpp">
+      <Filter>menu\base\submenus\main\network\session</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\session\overseer\network_session_overseer_selected.cpp">
+      <Filter>menu\base\submenus\main\network\session\overseer</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\network_spoofing_ip.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\network_spoofing_player_rotation.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\network_spoofing_profiles.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\network_spoofing_rid.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\network_spoofing_vehicle_rotation.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\network_spoofing_crew.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\network_spoofing_intervals.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\profiles\network_spoofing_profiles_edit.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing\profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_icon.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_motto.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_name.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_presets.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_rank.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_tag.cpp">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\toolkit\network_desync_kick.cpp">
+      <Filter>menu\base\submenus\main\network\toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\toolkit\network_join_blocking.cpp">
+      <Filter>menu\base\submenus\main\network\toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\toolkit\network_blacklisted_players.cpp">
+      <Filter>menu\base\submenus\main\network\toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_add.cpp">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_edit.cpp">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_manual.cpp">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_manual_edit.cpp">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_manual_load.cpp">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_manual_save.cpp">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_friends.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_global_chat.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_host_toolkit.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_join_bypass.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_players.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_recent_players.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_session.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_session_finder.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_spoofing.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\network\network_account.cpp">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\dispatch.cpp">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\display.cpp">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\hud.cpp">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\misc_camera.cpp">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\misc_disables.cpp">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\misc_panels.cpp">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\misc_radio.cpp">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\misc_swaps.cpp">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\visions.cpp">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\swaps\model_swaps.cpp">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\swaps\model_swaps_add.cpp">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\swaps\model_swaps_presets.cpp">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\swaps\texture_swaps.cpp">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\swaps\texture_swaps_add.cpp">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\panels\panels_edit.cpp">
+      <Filter>menu\base\submenus\main\misc\panels</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\panels\panels_parent.cpp">
+      <Filter>menu\base\submenus\main\misc\panels</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\misc\camera\aerial_camera.cpp">
+      <Filter>menu\base\submenus\main\misc\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\helper\color\helper_color_preset.cpp">
+      <Filter>menu\base\submenus\main\helper\color</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\helper\esp\helper_esp_settings.cpp">
+      <Filter>menu\base\submenus\main\helper\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\helper\esp\helper_esp_settings_edit.cpp">
+      <Filter>menu\base\submenus\main\helper\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\helper\rainbow\helper_rainbow_load.cpp">
+      <Filter>menu\base\submenus\main\helper\rainbow</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\helper\helper_esp.cpp">
+      <Filter>menu\base\submenus\main\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\helper\helper_rainbow.cpp">
+      <Filter>menu\base\submenus\main\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\base\submenus\main\helper\helper_color.cpp">
+      <Filter>menu\base\submenus\main\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="global\lists.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="global\ui_vars.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="global\vars.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\md5\md5.cc">
+      <Filter>auth\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\base64\base64.cc">
+      <Filter>auth\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\api\api.cc">
+      <Filter>auth\api</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\hooks.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\hooks\request_control.cpp">
+      <Filter>menu\hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\va.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\wmi.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\caller.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\config.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\dirs.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\fiber.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\fiber_pool.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\json.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\localization.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\log.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\math.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\threads.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\xml\pugiconfig.h">
+      <Filter>util\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="util\xml\pugixml.h">
+      <Filter>util\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="util\wic\wic_texture_loader.h">
+      <Filter>util\wic</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memory\memory.h">
+      <Filter>util\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memory\pattern.h">
+      <Filter>util\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memory\spoof.h">
+      <Filter>util\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memory\xor.h">
+      <Filter>util\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hooking\callspoofer.h">
+      <Filter>util\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hooking\hooking.h">
+      <Filter>util\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hooking\minhook.h">
+      <Filter>util\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\engine.h">
+      <Filter>rage</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\invoker\invoker.h">
+      <Filter>rage\invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\invoker\natives.h">
+      <Filter>rage\invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\base_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\bit_buffer.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\generic_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\global_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\invoker_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\network_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\script_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\init.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\hooks\hooks.h">
+      <Filter>menu\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\options\break.h">
+      <Filter>menu\base\options</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\options\button.h">
+      <Filter>menu\base\options</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\options\color_option.h">
+      <Filter>menu\base\options</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\options\number.h">
+      <Filter>menu\base\options</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\options\option.h">
+      <Filter>menu\base\options</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\options\radio.h">
+      <Filter>menu\base\options</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\options\scroll.h">
+      <Filter>menu\base\options</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\options\submenu_option.h">
+      <Filter>menu\base\options</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\options\toggle.h">
+      <Filter>menu\base\options</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\base.h">
+      <Filter>menu\base</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\renderer.h">
+      <Filter>menu\base</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenu.h">
+      <Filter>menu\base</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenu_handler.h">
+      <Filter>menu\base</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\camera.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\control.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\fonts.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\global.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\helpers.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\hotkeys.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\input.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\instructionals.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\menu_input.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\notify.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\on_screen_ped.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\panels.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\player_manager.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\rainbow.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\raycast.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\stacked_display.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\stats.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\textures.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\util\timers.h">
+      <Filter>menu\base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main.h">
+      <Filter>menu\base\submenus</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player.h">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protections.h">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings.h">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner.h">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\teleport.h">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle.h">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world.h">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc.h">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network.h">
+      <Filter>menu\base\submenus\main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\local_entities.h">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\ocean.h">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\trains.h">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\world_time.h">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\world_waypoint.h">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\world_weather.h">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\bullet_tracers.h">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\clear_area.h">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\game_fx.h">
+      <Filter>menu\base\submenus\main\world</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_color.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_cross_multiplier.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_liquid.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_load.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_puddles.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_sky.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_traffic.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_ui_color.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_vehicle.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\fx\fx_vehicle_neons.h">
+      <Filter>menu\base\submenus\main\world\fx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\ocean\ocean_quads.h">
+      <Filter>menu\base\submenus\main\world\ocean</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\ocean\ocean_quads_edit.h">
+      <Filter>menu\base\submenus\main\world\ocean</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\ocean\ocean_tuning.h">
+      <Filter>menu\base\submenus\main\world\ocean</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\time\time_preset.h">
+      <Filter>menu\base\submenus\main\world\time</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\weather\fx\weather_fx.h">
+      <Filter>menu\base\submenus\main\world\weather</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\world\weather\weather_select.h">
+      <Filter>menu\base\submenus\main\world\weather</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\gravity_gun.h">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\particle_gun.h">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\triggerbot.h">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\weapon_disables.h">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\weapon_modifiers.h">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\weapon_mods.h">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\aimbot.h">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\entity_gun.h">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\give_weapons_ammo.h">
+      <Filter>menu\base\submenus\main\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\explosions\explosion_editor.h">
+      <Filter>menu\base\submenus\main\weapon\explosions</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\explosions\explosion_gun.h">
+      <Filter>menu\base\submenus\main\weapon\explosions</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\give\give_attachment.h">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\give\give_attachment_selected.h">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\give\give_tint.h">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\give\give_tint_selected.h">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\give\give_weapon.h">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\give\give_weapons.h">
+      <Filter>menu\base\submenus\main\weapon\give</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\modifiers\ammo\ammo_modifier.h">
+      <Filter>menu\base\submenus\main\weapon\modifiers\ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\modifiers\ammo\ammo_modifier_edit.h">
+      <Filter>menu\base\submenus\main\weapon\modifiers\ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\modifiers\ammo\ammo_modifier_load.h">
+      <Filter>menu\base\submenus\main\weapon\modifiers\ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\modifiers\ammo\ammo_modifier_swap.h">
+      <Filter>menu\base\submenus\main\weapon\modifiers\ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\modifiers\weapon_matrix.h">
+      <Filter>menu\base\submenus\main\weapon\modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\modifiers\weapon_multipliers.h">
+      <Filter>menu\base\submenus\main\weapon\modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\purchase\purchase_attachment.h">
+      <Filter>menu\base\submenus\main\weapon\purchase</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\purchase\purchase_weapon.h">
+      <Filter>menu\base\submenus\main\weapon\purchase</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\weapon\purchase\purchase_weapons.h">
+      <Filter>menu\base\submenus\main\weapon\purchase</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_collision.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_customs.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_doors.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_gravity.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_health.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_modifiers.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_movement.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_multipliers.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_particles.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_ramps.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_randomization.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_seats.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_speedometer.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_tyre_tracks.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_weapons.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_autopilot.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\vehicle_boost.h">
+      <Filter>menu\base\submenus\main\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_horn.h">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_interior.h">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_lights.h">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_lsc.h">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_respray.h">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_wheels.h">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_bumpers.h">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\vehicle_customs_fender.h">
+      <Filter>menu\base\submenus\main\vehicle\customs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_color.h">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_tires.h">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_tires_edit.h">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_type.h">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\wheels\vehicle_customs_wheels_type_edit.h">
+      <Filter>menu\base\submenus\main\vehicle\customs\wheels</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\respray\vehicle_customs_respray_edit.h">
+      <Filter>menu\base\submenus\main\vehicle\customs\respray</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\respray\vehicle_customs_respray_type.h">
+      <Filter>menu\base\submenus\main\vehicle\customs\respray</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\lights\neon\vehicle_customs_neon_color.h">
+      <Filter>menu\base\submenus\main\vehicle\customs\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\customs\lights\vehicle_customs_neon.h">
+      <Filter>menu\base\submenus\main\vehicle\customs\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\modifiers\vehicle_modifiers_handling.h">
+      <Filter>menu\base\submenus\main\vehicle\modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_attr.h">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_bike.h">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_boat.h">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_flying.h">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_load.h">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\modifiers\handling\vehicle_modifiers_handling_main.h">
+      <Filter>menu\base\submenus\main\vehicle\modifiers\handling</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\movement\vehicle_movement_parachute.h">
+      <Filter>menu\base\submenus\main\vehicle\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\movement\vehicle_movement_acrobatics.h">
+      <Filter>menu\base\submenus\main\vehicle\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\vehicle\seats\vehicle_seats_edit.h">
+      <Filter>menu\base\submenus\main\vehicle\seats</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\teleport\teleport_ipl.h">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\teleport\teleport_save_load.h">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\teleport\teleport_selected.h">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\teleport\teleport_settings.h">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\teleport\teleport_stores.h">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\teleport\teleport_directional.h">
+      <Filter>menu\base\submenus\main\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\teleport\stores\teleport_stores_selected.h">
+      <Filter>menu\base\submenus\main\teleport\stores</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_modded.h">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_save.h">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_selected.h">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_settings.h">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_garage.h">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\vehicle\spawner_vehicle_manage.h">
+      <Filter>menu\base\submenus\main\spawner\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\vehicle\garage\spawner_vehicle_garage_selected.h">
+      <Filter>menu\base\submenus\main\spawner\vehicle\garage</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\vehicle\edit\spawner_vehicle_manage_edit.h">
+      <Filter>menu\base\submenus\main\spawner\vehicle\edit</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\ped\spawner_ped_settings.h">
+      <Filter>menu\base\submenus\main\spawner\ped</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\ped\spawner_ped_manage.h">
+      <Filter>menu\base\submenus\main\spawner\ped</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\ped\edit\spawner_ped_manage_edit.h">
+      <Filter>menu\base\submenus\main\spawner\ped\edit</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\object\spawner_object_manage.h">
+      <Filter>menu\base\submenus\main\spawner\object</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\object\spawner_object_select.h">
+      <Filter>menu\base\submenus\main\spawner\object</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\object\spawner_object_settings.h">
+      <Filter>menu\base\submenus\main\spawner\object</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\object\spawner_object_building.h">
+      <Filter>menu\base\submenus\main\spawner\object</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\spawner\object\edit\spawner_object_manage_edit.h">
+      <Filter>menu\base\submenus\main\spawner\object\edit</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\settings_color.h">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\settings_fonts.h">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\settings_hotkey.h">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\settings_texture.h">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\settings_textures.h">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\themes.h">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\translation.h">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\hide_info.h">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\position_scale.h">
+      <Filter>menu\base\submenus\main\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\translation\translation_selected.h">
+      <Filter>menu\base\submenus\main\settings\translation</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\themes\themes_selected.h">
+      <Filter>menu\base\submenus\main\settings\themes</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\pos\position_scale_selected.h">
+      <Filter>menu\base\submenus\main\settings\pos</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\hk\hotkey_selected.h">
+      <Filter>menu\base\submenus\main\settings\hk</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\settings\color\color_sync.h">
+      <Filter>menu\base\submenus\main\settings\color</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\protection_limits.h">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\protection_net_events.h">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\protection_presence_events.h">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\protection_reactions.h">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\protection_anti_detection.h">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\protection_entity_events.h">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\protection_events.h">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\protection_join_blocking.h">
+      <Filter>menu\base\submenus\main\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\reactions\protection_reactions_selected.h">
+      <Filter>menu\base\submenus\main\protection\reactions</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\limits\entity\protection_spawn_rate_limit_add.h">
+      <Filter>menu\base\submenus\main\protection\limits\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\limits\entity\protection_spawn_rate_limit_edit.h">
+      <Filter>menu\base\submenus\main\protection\limits\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\limits\protection_message_limit.h">
+      <Filter>menu\base\submenus\main\protection\limits</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\limits\protection_spawn_rate_limit.h">
+      <Filter>menu\base\submenus\main\protection\limits</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\entity\protection_entity_blocking.h">
+      <Filter>menu\base\submenus\main\protection\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\entity\protection_entity_ghosting.h">
+      <Filter>menu\base\submenus\main\protection\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\protection\entity\protection_entity_ghosting_edit.h">
+      <Filter>menu\base\submenus\main\protection\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\animation\animations.h">
+      <Filter>menu\base\submenus\main\player\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\animation\clipsets.h">
+      <Filter>menu\base\submenus\main\player\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\animation\scenario.h">
+      <Filter>menu\base\submenus\main\player\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\ptfx\hand_trails.h">
+      <Filter>menu\base\submenus\main\player\ptfx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\ptfx\particle_manager.h">
+      <Filter>menu\base\submenus\main\player\ptfx</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\model.h">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\movement.h">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\particles.h">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\wardrobe.h">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\wardrobe_save_load.h">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\animation.h">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\player\appearance.h">
+      <Filter>menu\base\submenus\main\player</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\account\network_account_level.h">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\account\network_account_outfits.h">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\account\network_account_times.h">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\account\network_account_unlocks.h">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\account\network_account_wins_losses.h">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\account\network_account_kd.h">
+      <Filter>menu\base\submenus\main\network\account</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\account\wins\network_account_wins_losses_edit.h">
+      <Filter>menu\base\submenus\main\network\account\wins</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\account\outfits\network_account_outfits_edit.h">
+      <Filter>menu\base\submenus\main\network\account\outfits</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\account\outfits\network_account_outfits_edit_name.h">
+      <Filter>menu\base\submenus\main\network\account\outfits</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\chat\network_global_chat_presets.h">
+      <Filter>menu\base\submenus\main\network\chat</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\chat\network_global_chat_Purge.h">
+      <Filter>menu\base\submenus\main\network\chat</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\chat\network_global_chat_targets.h">
+      <Filter>menu\base\submenus\main\network\chat</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\finder\network_session_finder_edit.h">
+      <Filter>menu\base\submenus\main\network\finder</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\friends\network_friends_selected.h">
+      <Filter>menu\base\submenus\main\network\friends</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_text.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_trolling.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_vehicle.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_abusive.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_commands.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_friendly.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_removals.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_selected.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_spawn_blocking.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\network_players_teleport.h">
+      <Filter>menu\base\submenus\main\network\players</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\text\network_players_text_presets.h">
+      <Filter>menu\base\submenus\main\network\players\text</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\text\network_players_text_save.h">
+      <Filter>menu\base\submenus\main\network\players\text</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\trolling\network_players_trolling_attachments.h">
+      <Filter>menu\base\submenus\main\network\players\trolling</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\trolling\attachments\network_players_trolling_attachments_presets.h">
+      <Filter>menu\base\submenus\main\network\players\trolling</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\trolling\network_players_trolling_sounds.h">
+      <Filter>menu\base\submenus\main\network\players\trolling</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\teleport\network_players_teleport_apartments.h">
+      <Filter>menu\base\submenus\main\network\players\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\friendly\network_players_friendly_drops.h">
+      <Filter>menu\base\submenus\main\network\players\friendly</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\abusive\network_players_abusive_attackers.h">
+      <Filter>menu\base\submenus\main\network\players\abusive</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\players\abusive\network_players_abusive_explosions.h">
+      <Filter>menu\base\submenus\main\network\players\abusive</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\recent\network_recent_players_permanent.h">
+      <Filter>menu\base\submenus\main\network\recent</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\recent\network_recent_players_selected.h">
+      <Filter>menu\base\submenus\main\network\recent</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\search\network_player_search_selected.h">
+      <Filter>menu\base\submenus\main\network\search</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\session\network_session_excludes.h">
+      <Filter>menu\base\submenus\main\network\session</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\session\network_session_overseer.h">
+      <Filter>menu\base\submenus\main\network\session</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\session\overseer\network_session_overseer_selected.h">
+      <Filter>menu\base\submenus\main\network\session\overseer</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\network_spoofing_ip.h">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\network_spoofing_player_rotation.h">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\network_spoofing_profiles.h">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\network_spoofing_rid.h">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\network_spoofing_vehicle_rotation.h">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\network_spoofing_crew.h">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\network_spoofing_intervals.h">
+      <Filter>menu\base\submenus\main\network\spoofing</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\profiles\network_spoofing_profiles_edit.h">
+      <Filter>menu\base\submenus\main\network\spoofing\profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_icon.h">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_motto.h">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_name.h">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_presets.h">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_rank.h">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\spoofing\crew\network_spoofing_crew_tag.h">
+      <Filter>menu\base\submenus\main\network\spoofing\crew</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\toolkit\network_blacklisted_players.h">
+      <Filter>menu\base\submenus\main\network\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\toolkit\network_desync_kick.h">
+      <Filter>menu\base\submenus\main\network\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\toolkit\network_join_blocking.h">
+      <Filter>menu\base\submenus\main\network\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_add.h">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_edit.h">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_manual.h">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_manual_edit.h">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_manual_load.h">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\toolkit\blocking\network_join_blocking_manual_save.h">
+      <Filter>menu\base\submenus\main\network\toolkit\blocking</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_account.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_friends.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_global_chat.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_host_toolkit.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_join_bypass.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_players.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_recent_players.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_session.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_session_finder.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\network\network_spoofing.h">
+      <Filter>menu\base\submenus\main\network</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\dispatch.h">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\display.h">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\hud.h">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\misc_camera.h">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\misc_disables.h">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\misc_panels.h">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\misc_radio.h">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\misc_swaps.h">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\visions.h">
+      <Filter>menu\base\submenus\main\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\swaps\model_swaps.h">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\swaps\model_swaps_add.h">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\swaps\model_swaps_presets.h">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\swaps\texture_swaps.h">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\swaps\texture_swaps_add.h">
+      <Filter>menu\base\submenus\main\misc\swaps</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\panels\panels_edit.h">
+      <Filter>menu\base\submenus\main\misc\panels</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\panels\panels_parent.h">
+      <Filter>menu\base\submenus\main\misc\panels</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\misc\camera\aerial_camera.h">
+      <Filter>menu\base\submenus\main\misc\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\helper\color\helper_color_preset.h">
+      <Filter>menu\base\submenus\main\helper\color</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\helper\esp\helper_esp_settings.h">
+      <Filter>menu\base\submenus\main\helper\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\helper\esp\helper_esp_settings_edit.h">
+      <Filter>menu\base\submenus\main\helper\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\helper\rainbow\helper_rainbow_load.h">
+      <Filter>menu\base\submenus\main\helper\rainbow</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\helper\helper_esp.h">
+      <Filter>menu\base\submenus\main\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\helper\helper_rainbow.h">
+      <Filter>menu\base\submenus\main\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\base\submenus\main\helper\helper_color.h">
+      <Filter>menu\base\submenus\main\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="global\lists.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="global\ui_vars.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="global\vars.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\md5\md5.hh">
+      <Filter>auth\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\json\json.hh">
+      <Filter>auth\json</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\http\httplib.hh">
+      <Filter>auth\http</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\base64\base64.hh">
+      <Filter>auth\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\api\api.hh">
+      <Filter>auth\api</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="util\memory\SpoofCall.asm">
+      <Filter>util\memory</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
